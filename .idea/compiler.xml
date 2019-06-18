@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aem-demo.core" />
+        <module name="aem-demo.it.launcher" />
+        <module name="aem-demo.it.tests" />
+        <module name="aem-demo.ui.apps" />
+        <module name="aem-demo.ui.content" />
+        <module name="maven-archiver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aem-demo" target="1.8" />
+      <module name="aem-demo.core" target="1.8" />
+      <module name="aem-demo.it.launcher" target="1.8" />
+      <module name="aem-demo.it.tests" target="1.8" />
+      <module name="aem-demo.ui.apps" target="1.8" />
+      <module name="aem-demo.ui.content" target="1.8" />
+      <module name="maven-archiver" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aem-demo.iml" filepath="$PROJECT_DIR$/aem-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/aem-demo.core.iml" filepath="$PROJECT_DIR$/core/aem-demo.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/aem-demo.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/aem-demo.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/aem-demo.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/aem-demo.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/aem-demo.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/aem-demo.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/aem-demo.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/aem-demo.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/ui.apps/target/maven-archiver/maven-archiver.iml" />
+    </modules>
+  </component>
+</project>

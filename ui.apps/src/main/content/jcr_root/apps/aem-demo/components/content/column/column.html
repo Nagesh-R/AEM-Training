@@ -1,0 +1,105 @@
+<sly data-sly-test="${wcmmode.edit}">
+
+    Coloumn
+
+</sly>
+
+
+
+<div class="container">
+
+    <div class="row">
+
+
+
+
+
+        <sly data-sly-test ="${properties.columns=='two'}">
+
+            <div class="col-6" data-sly-test="${properties.columns=='two'}">
+
+                <sly data-sly-resource="${ @path='contentpar', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+
+
+
+
+            <div class="col-6" data-sly-test="${properties.columns=='two'}">
+
+                <sly data-sly-resource="${ @path='contentpar1', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+        </sly>
+
+
+
+
+
+
+
+        <sly data-sly-test ="${properties.columns=='three'}">
+
+            <div class="col-4" data-sly-test="${properties.columns=='three'}">
+
+                <sly data-sly-resource="${ @path='contentpar2', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+            <div class="col-4" data-sly-test="${properties.columns=='three'}">
+
+                <sly data-sly-resource="${ @path='contentpar3', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+            <div class="col-4" data-sly-test="${properties.columns=='three'}">
+
+                <sly data-sly-resource="${ @path='contentpar4', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+        </sly>
+
+
+
+
+
+        <sly data-sly-test ="${properties.columns=='four'}">
+
+            <div class="col-3" data-sly-test="${properties.columns=='four'}">
+
+                <sly data-sly-resource="${ @path='contentpa5', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+            <div class="col-3" data-sly-test="${properties.columns=='four'}">
+
+                <sly data-sly-resource="${ @path='contentpa6', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+            <div class="col-3" data-sly-test="${properties.columns=='four'}">
+
+                <sly data-sly-resource="${ @path='contentpa7', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+            <div class="col-3" data-sly-test="${properties.columns=='four'}">
+
+                <sly data-sly-resource="${ @path='contentpa8', resourceType='foundation/components/parsys'}"></sly>
+
+            </div>
+
+        </sly>
+
+
+
+
+
+    </div>
+
+</div>
+
+
