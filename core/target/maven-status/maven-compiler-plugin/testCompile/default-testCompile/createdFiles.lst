@@ -1,0 +1,5 @@
+com/demo/core/servlets/SimpleServletTest.class
+com/demo/core/schedulers/SimpleScheduledTaskTest.class
+com/demo/core/filters/LoggingFilterTest.class
+com/demo/core/models/HelloWorldModelTest.class
+com/demo/core/listeners/SimpleResourceListenerTest.class

@@ -1,0 +1,11 @@
+<div class="col-lg-4" data-sly-use.result="com.demo.core.content.Card">
+                <div class="card">
+                    <img class="card-img-top" src="${properties.image}"/>
+                    <div class="card-body">
+                        <h4 class="card-titl">${properties.text}</h4>
+                        <p class="card-text">${properties.desc}</p>
+                        <a target="${properties.target}" class="btn btn-primary" href="${result.button}.html"
+                        data-sly-test="${properties.check=='true'}">${properties.bname}</a>
+                    </div>
+                </div>
+            </div>

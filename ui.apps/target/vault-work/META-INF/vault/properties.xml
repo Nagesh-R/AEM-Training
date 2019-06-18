@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>aem-demo - UI apps</comment>
+<entry key="createdBy">icf2033325</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-demo.ui.apps</entry>
+<entry key="created">2019-06-10T15:14:47.655+0530</entry>
+<entry key="groupId">com.demo</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.demo</entry>
+<entry key="description">UI apps package for aem-demo</entry>
+<entry key="artifactId">aem-demo.ui.apps</entry>
+</properties>
