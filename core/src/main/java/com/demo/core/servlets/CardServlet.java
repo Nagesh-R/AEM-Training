@@ -40,8 +40,9 @@ import java.io.IOException;
         property={
                 Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
-                "sling.servlet.resourceTypes="+ "aem-demo/components/content/card",
-                "sling.servlet.extensions=" + "txt"
+                "sling.servlet.resourceTypes="+ "/aem-demo/components/content/card",
+                "sling.servlet.selectors=" +"card",
+                "sling.servlet.extensions=" + "json"
         })
 public class CardServlet extends SlingSafeMethodsServlet
 {

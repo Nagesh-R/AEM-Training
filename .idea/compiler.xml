@@ -9,8 +9,8 @@
         <module name="aem-demo.it.tests" />
         <module name="aem-demo.ui.apps" />
         <module name="aem-demo.core" />
-        <module name="maven-archiver" />
         <module name="aem-demo.it.launcher" />
+        <module name="maven-archiver" />
         <module name="aem-demo.ui.content" />
       </profile>
     </annotationProcessing>

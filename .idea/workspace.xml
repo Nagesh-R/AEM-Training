@@ -2,43 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36e7044-2ce5-4ed8-b90f-5a1e4fffefb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/Sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/Variable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/function1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/function1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/function2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/function2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Script/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.schedulers.SimpleScheduledTaskTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.schedulers.SimpleScheduledTaskTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/columns.html.dir/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/css.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/css.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/home/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/home/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/css.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/css.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/js.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/js.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footerlibs.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footerlibs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/detail/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/detail/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/home/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/home/.content.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
+            <state relative-caret-position="-78">
               <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
             </state>
           </provider>
@@ -72,16 +66,25 @@
         <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/columns/_cq_dialog/.content.xml">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -89,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="499">
               <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="334">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,15 +114,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/jquery-3.4.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/css.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,20 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/models/HelloWorldModel.java">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -171,7 +177,19 @@
       <list>
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/home/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/css.txt" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/jquery-3.4.1.min.js" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/ajaxcall.js" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java" />
       </list>
     </option>
@@ -192,17 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -218,6 +226,324 @@
               <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
               <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlib-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlib-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlib-site" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="blank_page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AEM-Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +554,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java/com/demo/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -236,6 +562,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site" />
       <recent name="$PROJECT_DIR$/core/src/main/java/com/demo/core" />
     </key>
   </component>
@@ -266,8 +593,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +609,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,19 +623,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/home/.content.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/main_page/.content.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/main_page/content.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/.content.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/_cq_dialog/.content.xml">
@@ -321,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/carousel/_cq_editConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/.content.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/content.html">
@@ -340,20 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/columns/_cq_dialog/.content.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -361,33 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/models/HelloWorldModel.java">
@@ -397,10 +673,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/home/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/.content.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/css.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/css.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/PathServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/ajaxcall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/CardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="207">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
