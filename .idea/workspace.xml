@@ -2,53 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e8baf0-740c-4399-acdd-a224b98b1efd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/ServletPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/ServletResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jstest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myapp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/column/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/column/_cq_dialog/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/column/_cq_editConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/column/column.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/page/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/page/_cq_editConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/page/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.schedulers.SimpleScheduledTaskTest.txt" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.schedulers.SimpleScheduledTaskTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/_cq_dialog/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/_cq_dialog/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/card.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/card.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/body.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/body.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footerlibs.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footerlibs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/head.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/header.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/headerlibs.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/headerlibs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/content.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/content.html" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/page/.content.xml" afterPath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/maven-archiver/maven-archiver.iml" afterPath="$PROJECT_DIR$/ui.apps/target/maven-archiver/maven-archiver.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" afterPath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jstest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/ui.content/target/" />
@@ -79,31 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletResource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ServletResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/ServletResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
               <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jstest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -114,26 +51,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/one.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myapp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -1336,14 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/ServletResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1380,6 +1289,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/ServletResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
           <folding />
         </state>
       </provider>
