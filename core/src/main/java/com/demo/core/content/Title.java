@@ -11,11 +11,11 @@ import java.util.Iterator;
 
 
 @Model(adaptables = Resource.class)
-public class Sample {
+public class Title {
 
 /*
 
-    private static final Logger LOG = LoggerFactory.getLogger(Sample.class);
+    private static final Logger LOG = LoggerFactory.getLogger(Title.class);
 
     @Self
     private Resource resource;
@@ -43,7 +43,7 @@ public class Sample {
 }
 */
 
-    private static final Logger LOG = LoggerFactory.getLogger(Sample.class);
+    private static final Logger LOG = LoggerFactory.getLogger(Title.class);
 
     @Self
     private Resource resource;
@@ -94,7 +94,6 @@ public class Sample {
             LOG.info("No child pages are found");
         }
 */
-
 
         if (resource != null) {
               Resource page = resource.getParent().getParent().getParent();

@@ -2,10 +2,10 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>aem-demo - UI apps</comment>
-<entry key="createdBy">icf2033325</entry>
+<entry key="createdBy">icf2025234</entry>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-demo.ui.apps</entry>
-<entry key="created">2019-06-10T15:14:47.655+0530</entry>
+<entry key="created">2019-06-19T14:40:17.295+0530</entry>
 <entry key="groupId">com.demo</entry>
 <entry key="version">1.0-SNAPSHOT</entry>
 <entry key="packageType">mixed</entry>
