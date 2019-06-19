@@ -4,7 +4,7 @@ function makeCoffee( sugar, milk )
     
     instructions += " pour into cup,";
     
-    instructions += " add coffee powder,";
+    instructions += " add coffee granules,";
     
     instructions += " add " + sugar + " spoons of sugar,";
     
