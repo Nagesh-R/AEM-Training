@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>Variables ,Objects and Arrays</h1>
+</head>
+	<body>
+		<script>
+				//Primitive Data types
+				var name ="appu";
+				console.log(name);
+				name = 56; //can assign any datatype values 
+				console.log(name);
+				const a ="apoorva"; //can't be chnaged
+				console.log(a);
+				console.log("result is: "+(2+3/10/5*2));
+				var number =20;
+				console.log(number += 30 ,number /= 2); 
+				//creating objects and Arrays
+				var persondetails = {
+					first_name:"apoorva",
+					last_name:"asangi",
+					age:24,
+					place:function(){
+						return "bangalore";
+					}
+				}
+				console.log(persondetails.first_name);
+				console.log(persondetails.place());
+				//creating array 
+				var fruitsname = ["apple","orange","grapes"];
+				console.log(fruitsname[0],fruitsname[1]);
+				//creating arrays inside object
+				var car = {
+					make : "volvo",
+					speed : 160,
+					engine : {
+						size :2.0,
+						make :"bmw",
+						fuel :"petrol",
+						pistons:[
+						{maker :"BMW"},{maker: "BMW2"}
+						],
+						drive: function(){return "drive";}
+					}
+				}
+				console.log(car.make,car.engine.size,car.engine.pistons[0].maker);
+				console.log(car.engine.drive());
+				//creating objects inside arrays
+				var array = [
+				"String",
+				100,
+				[ "embed" , 200],
+				{car :"ford"},
+				function(){return "ford";}
+				]
+				console.log(array[0], array[2][0],array[3].car);
+			</script>
+	<body>
+</html>
