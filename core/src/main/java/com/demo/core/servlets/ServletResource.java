@@ -41,7 +41,8 @@ import java.io.IOException;
                 Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
                 "sling.servlet.resourceTypes="+ "aem-demo/components/content/card",
-                "sling.servlet.extensions=" + "txt"
+                "sling.servlet.selectors=" + "card-servlet",
+                "sling.servlet.extensions=" + "json"
         })
 public class ServletResource extends SlingSafeMethodsServlet {
 

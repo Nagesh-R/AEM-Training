@@ -1,6 +1,7 @@
 
 <div class="col-lg-4" data-sly-use.result="com.demo.core.content.Card">
-    <div class="card">
+    <div class="card"  data-path="${resource.path}">
+    </div>
         <img class="card-img-top" src="${result.image}"/>
         <div class="card-body">
             <h4 class="card-titl">${result.title}</h4>
@@ -9,4 +10,4 @@
                data-sly-test="${properties.cta=='true'}">${properties.button}</a>
         </div>
     </div>
-</div>
+
