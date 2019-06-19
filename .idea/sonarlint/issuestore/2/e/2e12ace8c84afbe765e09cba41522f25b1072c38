@@ -1,0 +1,5 @@
+
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(êî¤•8½Ÿ…ô¶-
+ksquid:UselessImportCheck"@Remove this unused import 'com.day.cq.commons.jcr.JcrConstants'.(¡Ÿö‹8½Ÿ…ô¶-
+ssquid:UselessImportCheck"CRemove this unused import 'org.apache.sling.api.resource.Resource'.(—Öºşÿÿÿÿ8½Ÿ…ô¶-

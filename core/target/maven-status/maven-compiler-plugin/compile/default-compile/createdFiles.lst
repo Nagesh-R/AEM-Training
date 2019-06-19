@@ -1,8 +1,11 @@
 com/demo/core/listeners/SimpleResourceListener.class
 com/demo/core/filters/LoggingFilter.class
 com/demo/core/servlets/SimpleServlet.class
+com/demo/core/servlets/AemTestResourceSlingServlet.class
 com/demo/core/schedulers/SimpleScheduledTask$Config.class
 com/demo/core/package-info.class
 com/demo/core/content/Card.class
+com/demo/core/servlets/AemTestSlingServlet.class
 com/demo/core/schedulers/SimpleScheduledTask.class
+com/demo/core/content/Fetchingvalues.class
 com/demo/core/models/HelloWorldModel.class
