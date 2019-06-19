@@ -13,40 +13,40 @@
                     <image
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
-                        fieldLabel="Insert-Image"
+                        fieldLabel="Insert Image"
                         name="./image"/>
-                    <text
+                    <Title
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Card-Title"
-                        name="./text"/>
-                    <desc
+                        fieldLabel="Enter Card Title"
+                        name="./title"/>
+                    <description
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                        fieldLabel="Enter-Descrption"
-                        name="./desc"/>
+                        fieldLabel="Product Descripion"
+                        name="./description"/>
                     <target
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        fieldDescription="when cliked, open in new tab"
+                        fieldDescription="When checked, link opens in new tab"
                         name="./target"
                         text="Open link in new tab"
                         value="_blank"/>
-                    <button
+                    <link
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
-                        fieldLable="Link"
-                        name="./button"/>
-                    <bname
+                        fieldLabel="Select Redirect Path"
+                        name="./link"/>
+                    <button_name
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Button-Name"
-                        name="./bname"/>
-                    <check
+                        fieldLabel="Button"
+                        name="./button"/>
+                    <cta_enable
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        name="./check"
-                        text="Enable"
+                        name="./cta"
+                        text="Enable CTA"
                         uncheckedValue="_self"
                         value="true"/>
                 </items>

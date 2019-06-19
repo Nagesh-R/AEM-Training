@@ -1,7 +1,10 @@
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/servlets/SimpleServlet.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/content/Card.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/filters/LoggingFilter.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/package-info.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/schedulers/SimpleScheduledTask.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/listeners/SimpleResourceListener.java
-/Users/icf2033325/Downloads/aem-demo/core/src/main/java/com/demo/core/models/HelloWorldModel.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/content/Title.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/content/Card.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/servlets/ServletResource.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/filters/LoggingFilter.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/listeners/SimpleResourceListener.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/servlets/SimpleServlet.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/package-info.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/models/HelloWorldModel.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/servlets/ServletPath.java
+/Users/icf2025845/Desktop/GitHub/AEM-Training/core/src/main/java/com/demo/core/schedulers/SimpleScheduledTask.java
