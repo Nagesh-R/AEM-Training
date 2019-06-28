@@ -39,8 +39,8 @@
                     <td>${data.dob}</td>
                     <td>${data.age}</td>
                     <td>${data.address}</td>
-                    <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
-                    <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
+                   <!--/* <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
+                    <td><button class='delete' data-node-path='"+${data.path}+"'>Delete</button></td>*/-->
 
                 </tr>
             </sly>
@@ -65,17 +65,17 @@
             </thead>
 
             <tbody>
-            <!--/*<sly data-sly-list.data="${result.arrayList}">
+            <sly data-sly-list.data="${result.arrayList}">
                 <tr>
                     <td>${data.firstname}</td>
                     <td>${data.dob}</td>
                     <td>${data.age}</td>
                     <td>${data.address}</td>
-                    <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
-                    <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
+                    <td><button class="edit" data-node-path="${data.path}">Edit</button></td>
+                    <td><button class="delete" data-node-path="${data.path}">Edit</button></td>
 
                 </tr>
-            </sly>*/-->
+            </sly>
 
             </tbody>
         </table>

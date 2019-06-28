@@ -44,7 +44,7 @@ $("#form").validate({
            var age =$("#age").val();
            var address = $("#address").val();
            $.ajax({
-                            url: formurl+".creatingnodeservlet"+".json",
+                            url: formurl+".formservlet"+".json",
                             type: 'POST',
                             data:{
                                lastName  : lastName,
@@ -105,7 +105,7 @@ $.ajax({
             							"<td>"+response[i].age+"</td>"+
             							"<td>"+response[i].address+"</td>"+
             							"<td> <button class='edit' data-node-path='"+response[i].path+"'>Edit</button></td>"+
-            							"<td> <button class='delete' data-node-path='"+response[i].path+"'>Delete</button></td>");
+            							"<td> <button class='delete' data-node-path='"+response[i].path+"'>Delete</button></td></tr>");
         });
     },
         error : function(){

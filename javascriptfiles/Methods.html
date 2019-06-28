@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h4>Methods in objects</h4>
+</head>
+<body>
+<script>
+var user ={
+sayHi : function(){
+	alert("Hello");
+}
+}
+user.sayHi();
+//this keyword in method
+var userName ={
+	name : "apoorva",
+	sayHi : function(){
+		console.log("this in method: "+this.name);
+	}
+}
+userName.sayHi();
+"use strict";
+function func(){
+	alert(this);
+}
+</script>
+</body>
+</html>

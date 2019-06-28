@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<h1>
-		Functions
-	</h1>
+	<h2>Functions</h2>
 </head>
+
 <body>
 	<script>
-		function add(a,b){
-			alert("sum is: " +(a+b));
+		let userName = 'John';
+		function showMessage(){
+			userName ='Bob';
+			let message ='Hello,'+userName;
+			console.log(message);
 		}
-		var arr =[7,5,9,1];
-		var max = Math.max.apply(null,arr);
-		document.writeln("maximum value is: ",max);
+		console.log(userName);
+		showMessage();
+		console.log(userName);
+//passing of parameters to the function
+		function parameterFunc(message,name){
+			console.log(message+ ': '+name);
+		}
+		parameterFunc('hello!','Appu');
+		//function with return
+		function sum(a,b){
+			return a+b;
+		}
+		let result =sum(5,4);
+		console.log(result);
+		function min(a,b){
+			if(a<b){
+				console.log(a);
+			}else{
+				console.log(b);
+			}	
+		}
+		min(2,5); 
 		
+
 	</script>
-	<form>
-		<input type = "button" value ="click" onclick ="add(3,4);"/>
-	</form>
+
 </body>
 </html>

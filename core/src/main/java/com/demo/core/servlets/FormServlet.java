@@ -23,7 +23,7 @@ import java.io.IOException;
                 "sling.servlet.methods=" + HttpConstants.METHOD_POST,
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
                 "sling.servlet.resourceTypes=" + "aem-demo/components/content/form",
-                "sling.servlet.selectors=" + "creatingnodeservlet",
+                "sling.servlet.selectors=" + "formservlet",
                 "sling.servlet.selectors=" + "updatingnodedataservlet",
                 "sling.servlet.selectors=" + "deletingnodeervlet",
                 "sling.servlet.extensions=" + "json"
@@ -111,7 +111,7 @@ public class FormServlet extends SlingAllMethodsServlet {
         }
     }
 
-    private void  updateNode(final SlingHttpServletRequest request,final SlingHttpServletResponse response)throws ServletException, IOException{
+    private void updateNode(final SlingHttpServletRequest request,final SlingHttpServletResponse response)throws ServletException, IOException{
         try{
             ResourceResolver resourceResolver = request.getResourceResolver();
             String path = request.getParameter("path");
@@ -127,7 +127,6 @@ public class FormServlet extends SlingAllMethodsServlet {
 
             }
             response.getWriter().write(jsonObject.toString());
-            resourceResolver.commit();
 
     }catch(Exception e){
             e.printStackTrace();

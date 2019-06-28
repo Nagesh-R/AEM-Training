@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h2>Function Expression & Arrow Expression</h2>
+</head>
+<body>
+	<p id="name"></p>
+	<script>
+		let name = function(){
+
+			return ("hello appu!");
+		}
+		document.getElementById("name").innerHTML=name();
+
+//function declaration
+		sayHi("John");
+		function sayHi(name){
+			alert(`hello,${name}`);
+		}
+//function expression
+/*sayHi(`john`); //error
+let sayHi = function(name){ //starts execution from here
+	alert(`hello, ${name}`);
+};*/
+
+//Arrow Functions
+		let sum =(a,b)=>a+b;
+			alert(sum(1,2));
+		//multi line arrow function
+		let sub =(a,b)=>{
+			let result = a-b;
+			return result;
+		};
+
+		alert(sub(1,2));
+
+
+</script>
+</body>
+</html>
