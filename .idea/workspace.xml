@@ -2,23 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565dd5ca-bb4b-4a9b-b009-5b21011852e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e12ace8c84afbe765e09cba41522f25b1072c38" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e12ace8c84afbe765e09cba41522f25b1072c38" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96a604e2f0c14db6b26d7ecbbb4353dad6681cb0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96a604e2f0c14db6b26d7ecbbb4353dad6681cb0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3b1d5b4abf82fb3fb9db2dbb30ec085b2699ed4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3b1d5b4abf82fb3fb9db2dbb30ec085b2699ed4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.filters.LoggingFilterTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.listeners.SimpleResourceListenerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.models.HelloWorldModelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.schedulers.SimpleScheduledTaskTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-com.demo.core.servlets.SimpleServletTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.filters.LoggingFilterTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.listeners.SimpleResourceListenerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.models.HelloWorldModelTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/com.demo.core.servlets.SimpleServletTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/target/vault-work/META-INF/vault/properties.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/css.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/clientlibs/clientlib-base/js.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/breadcrumb/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/breadcrumb/clientlib/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/breadcrumb/clientlib/css.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/breadcrumb/clientlib/less/breadcrumb.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/_cq_dialog/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/card/card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/carousel/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/carousel/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/_cq_dialog/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/columns/columns.html.dir/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/helloworld/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/helloworld/_cq_dialog/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/helloworld/helloworld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/image/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/image/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/languagenavigation/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/list/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/list/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/navigation/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/search/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/sharing/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/tabs/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/tabs/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/tabs/_cq_template/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/teaser/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/text/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/content/title/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/button/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/container/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/container/new/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/hidden/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/options/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/form/text/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/blank page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/blank page.html.dir/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/blank_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/footerlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/blank_page/headerlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/detail/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/home/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/main_page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/main_page/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/page/customfooterlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/components/structure/page/customheaderlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/config.author/com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider-aem-demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/config/org.apache.sling.commons.log.LogManager.factory.config-aem-demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/i18n/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/i18n/fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/detail/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/home/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/page-content/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/templates/page-home/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/tests/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/tests/SampleTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/aem-demo/tests/js.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/sling/servlet/errorhandler/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/classes/apps/sling/servlet/errorhandler/ResponseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/target/vault-generated-import.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,34 +123,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestSlingServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/FormServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="353">
+              <caret line="132" column="74" lean-forward="true" selection-start-line="132" selection-start-column="74" selection-end-line="132" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4913#4931#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-963">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/formdata.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -88,8 +179,30 @@
       <list>
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Fetchingvalues.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestSlingServlet.java" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/jquery.js" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/content.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/_cq_dialog/.content.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/form.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/.content.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/.content.xml" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/formdata.html" />
+        <option value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/FormServlet.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -99,10 +212,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +256,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -152,32 +286,169 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlib-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlibs" type="462c0819:PsiDirectoryNode" />
+              <item name="clientlib-site" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr_root" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="aem-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="formdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aem-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AEM-Training" type="462c0819:PsiDirectoryNode" />
+              <item name="ui.apps" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java/com/demo/core" />
+    <property name="aem-intellij-plugin.notifications.version.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata" />
+      <recent name="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site" />
       <recent name="$PROJECT_DIR$/core/src/main/java/com/demo/core" />
     </key>
   </component>
@@ -192,6 +463,21 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debugger" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="30303" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="30303" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,26 +503,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5008606" side_tool="true" weight="0.25579977" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
-      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21247113" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290993" />
+      <window_info anchor="bottom" id="IntelliVault" order="0" weight="0.3290993" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3290993" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21247113" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3290993" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,24 +534,26 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008606" side_tool="true" weight="0.25579977" />
+      <window_info anchor="bottom" id="IntelliVault" order="0" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3290993" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21247113" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3290993" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,6 +563,9 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -300,6 +592,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/filters/LoggingFilter.java">
@@ -312,13 +618,6 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Card.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Fetchingvalues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/models/HelloWorldModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -326,32 +625,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/.content.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestSlingServlet.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/content/Fetchingvalues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="486">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/blank_page/footerlibs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/structure/home/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="87930" lean-forward="true" selection-start-line="1" selection-start-column="87930" selection-end-line="1" selection-end-column="87930" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-base/js.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/templates/detail/.content.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/columns/columns.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/_cq_dialog/.content.xml" />
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/_cq_editConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestResourceSlingServlet.java">
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/_cq_editConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/card/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/SimpleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/AemTestSlingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/tools.jar!/com/sun/xml/internal/xsom/impl/scd/Iterators.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/components/content/formdata/formdata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/aem-demo/clientlibs/clientlib-site/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-963">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/demo/core/servlets/FormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="132" column="74" lean-forward="true" selection-start-line="132" selection-start-column="74" selection-end-line="132" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4913#4931#0" expanded="true" />
           </folding>
         </state>
       </provider>

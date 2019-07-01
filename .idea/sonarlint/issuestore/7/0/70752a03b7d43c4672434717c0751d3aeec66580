@@ -1,0 +1,23 @@
+
+dsquid:S22594"FA "NullPointerException" could be thrown; "selector" is nullable here.(Š§â‚8”ß‚¾¹-
+xsquid:UselessImportCheck"MRemove this unused import 'org.osgi.service.component.annotations.Reference'.(¶ŸÎÖ8øâ¸Ğ·-
+psquid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¼şµ8ÃóÂ¾¹-
+´%squid:RedundantThrowsDeclarationCheckj"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(©¡¯úÿÿÿÿ8õœÜ¾¹-
+°%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(ÇóÂì8©İ¾¹-
+osquid:CommentedOutCodeLine¼"<This block of commented-out lines of code should be removed.(Ùá³’ûÿÿÿÿ8ì×À¹-
+Xsquid:S2209|"5Change this instance-reference to a static reference.(êü˜±şÿÿÿÿ8ÃóÂ¾¹-
+hsquid:S1192u"JDefine a constant instead of duplicating this literal "last_name" 6 times.(¶…‚8ıÜ¹¥¹-
+msquid:S1854|"JRemove this useless assignment to local variable "resourceNodeProperties".(êü˜±şÿÿÿÿ8ÃóÂ¾¹-
+jsquid:CommentedOutCodeLineÎ"<This block of commented-out lines of code should be removed.(‹ìŒá8ì×À¹-
+|squid:S2293s"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ºöºıÿÿÿÿ8ÃóÂ¾¹-
+lsquid:S2259"HA "NullPointerException" could be thrown; "properties" is nullable here.(×‚¤—øÿÿÿÿ8ÃóÂ¾¹-
+psquid:S00117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÖŒ8ÃóÂ¾¹-
+µ%squid:RedundantThrowsDeclarationCheck¥"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(Õ¿˜´ûÿÿÿÿ8ƒ‡ß¾¹-
+^squid:S1481|";Remove this unused "resourceNodeProperties" local variable.(êü˜±şÿÿÿÿ8ÃóÂ¾¹-
+{squid:S2637«"WParameter 1 to this call is marked "javax.annotation.Nonnull" but null could be passed.(ø°Äúÿÿÿÿ8ƒ‡ß¾¹-
+Lsquid:S1948,".Make "resourceUtil" transient or serializable.(»ùÑñ8ıÜ¹¥¹-
+isquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(¤Œí¡8Ç¯åÀ¹-
+Hsquid:S1948+"*Make "resource" transient or serializable.(ıæíò8ıÜ¹¥¹-
+}squid:UselessImportCheck"RRemove this unused import 'org.apache.sling.api.servlets.SlingSafeMethodsServlet'.(±ŒÆ¦8ğª´£·-
+isquid:S1192t"KDefine a constant instead of duplicating this literal "first_name" 6 times.(Š¯ÎŸ8ıÜ¹¥¹-
+lsquid:S2259˜"HA "NullPointerException" could be thrown; "myResource" is nullable here.(Èñ‹ïüÿÿÿÿ8§©ÔÀ¹-

@@ -1,3 +1,4 @@
+com/demo/core/servlets/FormServlet.class
 com/demo/core/listeners/SimpleResourceListener.class
 com/demo/core/filters/LoggingFilter.class
 com/demo/core/servlets/SimpleServlet.class

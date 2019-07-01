@@ -1,0 +1,7 @@
+
+Yjavascript:S1854u"6Remove this useless assignment to local variable "age"(ÀÏæË8¯Ñ¦÷¸-
+cjavascript:S1854t";Remove this useless assignment to local variable "lastName"(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
+jjavascript:UnusedVariablet"9Remove the declaration of the unused 'lastName' variable.(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
+kjavascript:UnusedVariables":Remove the declaration of the unused 'firstName' variable.(ÛÚøÛûÿÿÿÿ8À’¬÷¸-
+djavascript:S1854s"<Remove this useless assignment to local variable "firstName"(ÛÚøÛûÿÿÿÿ8À’¬÷¸-
+`javascript:UnusedVariableu"4Remove the declaration of the unused 'age' variable.(ÀÏæË8¯Ñ¦÷¸-

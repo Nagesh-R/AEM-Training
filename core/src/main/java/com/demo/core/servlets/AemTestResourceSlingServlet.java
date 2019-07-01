@@ -18,10 +18,11 @@ import java.io.IOException;
         property={
                 Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
-                "sling.servlet.resourceTypes="+ "aem-demo/components/structure/home",
-                "sling.servlet.paths="+"/bin/aemtraning/testresourceservlet",
+                //"sling.servlet.resourceTypes="+ "aem-demo/components/structure/home",
+
+                //"sling.servlet.paths="+"/bin/aemtraning/testresourceservlet",
                 "sling.servlet.selectors="+ "testservlet",
-                "sling.servlet.extensions=" + "html"
+                "sling.servlet.extensions=" + "json"
         })
 public class AemTestResourceSlingServlet extends SlingSafeMethodsServlet {
 
