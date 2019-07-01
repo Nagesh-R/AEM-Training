@@ -5,7 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ui.apps/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/it.tests/pom.xml" />
         <option value="$PROJECT_DIR$/ui.content/pom.xml" />
         <option value="$PROJECT_DIR$/it.launcher/pom.xml" />

@@ -12,10 +12,10 @@ import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 @Model(adaptables = Resource.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Card
+public class CardModel
 {
 
-    private static final Logger LOG = LoggerFactory.getLogger(Card.class);
+    private static final Logger LOG = LoggerFactory.getLogger(CardModel.class);
 
     @Inject
     private String button;
@@ -45,7 +45,6 @@ public class Card
     public String getButton() {
         return button;
     }
-
 
     public String getImage() {
         return image;
