@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script>
+	function change(){
+	document.getElementById("func").innerHTML="Changed by function";
+}	
+</script>
+</head>
+<body>
+
+	<h3>JavaScript testing for changing text</h3>
+	<p id="test">Click on the button to change the text</p>
+	<p id="test1">Click on the button to change the font</p>
+	<p id="func">Change this line by calling the function</p>
+
+	<button type="button" onclick='document.getElementById("test").innerHTML="This is the modified text."''>Click here</button>
+
+	<button type="button" onclick='document.getElementById("test1").style.fontSize="50px"'>change font</button>
+
+	<button type="button" onclick="change()">Click to call function</button>
+
+	<button type="button" onclick='window.alert(22+25)'>add</button>
+</body>
+</html>

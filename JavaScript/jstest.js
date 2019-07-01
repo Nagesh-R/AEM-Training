@@ -9,3 +9,7 @@ var car = {
     drive:function(){return "drive";}
     
 };
+
+document.write(car.color);
+document.write(car.speed);
+

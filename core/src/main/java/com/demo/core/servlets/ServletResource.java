@@ -42,7 +42,7 @@ import java.io.IOException;
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
                 "sling.servlet.resourceTypes="+ "aem-demo/components/content/card",
                 "sling.servlet.selectors=" + "card-servlet",
-                "sling.servlet.extensions=" + "json"
+                "sling.servlet.extensions=" + "txt"
         })
 public class ServletResource extends SlingSafeMethodsServlet {
 
@@ -51,8 +51,8 @@ public class ServletResource extends SlingSafeMethodsServlet {
     @Override
     protected void doGet(final SlingHttpServletRequest req,
                          final SlingHttpServletResponse resp) throws ServletException, IOException {
-        final Resource resource = req.getResource();
+
         resp.setContentType("text/plain");
-        resp.getWriter().print("This is a Servlet using Resource Type");
+        resp.getWriter().print("This is a Servlet using Resource Type with selector name: card-servlet");
     }
 }

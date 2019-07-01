@@ -6,3 +6,6 @@ var person = {
     return this.firstName + " " + this.lastName+" "+this.id;
   }
 };
+document.write(person["firstName"]);
+document.write("<br>")
+document.write(person["id"])

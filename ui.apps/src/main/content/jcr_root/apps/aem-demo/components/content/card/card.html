@@ -1,10 +1,10 @@
 
 <div class="col-lg-4" data-sly-use.result="com.demo.core.content.Card">
-    <div class="card"  data-path="${resource.path}">
+    <div class="card  card-resource"  data-path="${resource.path}">
     </div>
         <img class="card-img-top" src="${result.image}"/>
         <div class="card-body">
-            <h4 class="card-titl">${result.title}</h4>
+            <h4 class="card-title">${result.title}</h4>
             <p class="card-text">${result.description}</p>
             <a target="${properties.target}" class="btn btn-primary" href="${result.link}"
                data-sly-test="${properties.cta=='true'}">${properties.button}</a>
