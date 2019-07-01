@@ -57,45 +57,7 @@ public class FormServlet extends SlingAllMethodsServlet {
                 deleteNode(req,resp);
             }
 
-           /* resource = req.getResource();
-            //resp.setContentType("application/json");
-            if (req.getParameter("nodePath") == null) {
-                String path = resource.getPath() + '/' + Math.random();
-                ResourceResolver resourceResolver = req.getResourceResolver();
 
-                String first_name = req.getParameter("firstName");
-                String last_name = req.getParameter("lastName");
-                String age = req.getParameter("age");
-                Map < String, Object > map = new HashMap < String, Object > ();
-                map.put("first_name", first_name);
-                map.put("last_name", last_name);
-                map.put("age", age);
-
-                Resource resourceNode = resourceResolver.getResource(req.getParameter("resourcePath"));
-
-                if (resourceNode == null) {
-
-                    Resource resourceNodeProperties = resourceUtil.getOrCreateResource(resourceResolver, path, map, "", true);
-                    resp.getWriter().println("data saved successfully");
-                    LOG.info("data saved successfully");
-                } else {
-                    final ModifiableValueMap properties = resourceNode.adaptTo(ModifiableValueMap.class);
-                    properties.put("first_name", req.getParameter("firstName"));
-                    properties.put("last_name", req.getParameter("lastName"));
-                    properties.put("age", req.getParameter("age"));
-                    resourceResolver.commit();
-                    resp.getWriter().println("data updated successfully");
-
-                }
-            } else {
-                // To delete the resource
-                ResourceResolver resourceResolver = req.getResourceResolver();
-                Resource myResource = resourceResolver.getResource(req.getParameter("nodePath"));
-                resourceResolver.delete(myResource);
-                resourceResolver.commit();
-                resp.getWriter().println("Node deleted successfully:");
-            }
-*/
         } catch (Exception e) {
             LOG.info(e.getMessage());
         }
@@ -203,19 +165,7 @@ public class FormServlet extends SlingAllMethodsServlet {
                 }
 
                 response.getWriter().write(jsonarray.toString());
-            /*} else {
 
-                // Fetching value with respected node
-
-                ResourceResolver resourceResolver = request.getResourceResolver();
-
-                Resource myResource = resourceResolver.getResource(request.getParameter("nodePath"));
-                JsonObject jsonObject = new JsonObject();
-                jsonObject.addProperty("first_name", myResource.getValueMap().get("first_name", String.class));
-                jsonObject.addProperty("last_name", myResource.getValueMap().get("last_name", String.class));
-                jsonObject.addProperty("age", myResource.getValueMap().get("age", String.class));
-                response.getWriter().write(jsonObject.toString());
-            }*/
 
         } catch (Exception e) {
             e.getMessage();

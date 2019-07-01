@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1561626446001
+Bnd-LastModified: 1561961355642
 Build-Jdk: 1.8.0_211
 Built-By: icf2033328
 Bundle-Description: Core bundle for aem-demo
