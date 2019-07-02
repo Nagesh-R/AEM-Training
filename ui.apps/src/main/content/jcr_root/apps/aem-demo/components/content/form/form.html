@@ -60,12 +60,19 @@
 
 </div>
 <br>
-
-
+<table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
+    <h4>Using Sling Model</h4>
+    <tr>
+        <td align='center'><button type='hide' value="show" id="hide">Show/Hide-Details</button></td>
+    </tr>
+</table>
+    <table id ="slingTable" border="1">
+    <div  data-sly-use.result="com.demo.core.content.FormModel">
     <thead>
     <th>FirstName</th>
     <th>LastName</th>
     <th>Age</th>
+    <th colspan="3">Actions</th>
     </thead>
     <tbody >
      <sly data-sly-list.userData="${result.userDataArray}">
@@ -73,9 +80,12 @@
             <td>${userData.firstName}</td>
             <td>${userData.LastName}</td>
             <td>${userData.Age}</td>
+            <td><button>Edit</button></td>
+            <td><button>Delete</button></td>
         </tr>
      </sly>
     </tbody>
+    </div>
 </table>
 </html>
 </div>

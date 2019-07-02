@@ -1,5 +1,6 @@
 package com.demo.core.servlets;
 
+import com.demo.core.services.FormDataDisplayService;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -9,6 +10,7 @@ import org.apache.sling.api.servlets.HttpConstants;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.osgi.framework.Constants;
 import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import javax.servlet.Servlet;
@@ -36,23 +38,19 @@ public class FormServlet extends SlingAllMethodsServlet {
     public static final String LAST_NAME = "LastName";
     public static final String AGE = "Age";
 
-    private static final long serialVersionUID = 1L;
+    @Reference
+    private FormDataDisplayService formDataDisplayService;
 
     @Override
     protected void doPost(final SlingHttpServletRequest req,
                           final SlingHttpServletResponse resp) throws ServletException, IOException {
-        String selector= req.getRequestPathInfo().getSelectorString();
-        if (selector.equals("form"))
-        {
-            createFormNode(req,resp);
-        }
-        else if (selector.equals("deleteFormNode"))
-        {
-            deleteNode(req,resp);
-        }
-        else if (selector.equals("editNode"))
-        {
-            editNode(req,resp);
+        String selector = req.getRequestPathInfo().getSelectorString();
+        if (selector.equals("form")) {
+            createFormNode(req, resp);
+        } else if (selector.equals("deleteFormNode")) {
+            deleteNode(req, resp);
+        } else if (selector.equals("editNode")) {
+            editNode(req, resp);
         }
     }
 
@@ -62,15 +60,15 @@ public class FormServlet extends SlingAllMethodsServlet {
             Resource resource = request.getResource();
             JsonArray array = new JsonArray();
 
-            Iterator < Resource > parentNode = resource.listChildren();
+            Iterator<Resource> parentNode = resource.listChildren();
             while (parentNode.hasNext()) {
                 Resource childNode = parentNode.next();
-                ValueMap childValueMap= childNode.getValueMap();
+                ValueMap childValueMap = childNode.getValueMap();
                 JsonObject data = new JsonObject();
                 data.addProperty("First-Name", childValueMap.get(FIRST_NAME, String.class));
                 data.addProperty("Last-Name", childValueMap.get(LAST_NAME, String.class));
                 data.addProperty(AGE, childValueMap.get(AGE, String.class));
-                data.addProperty("resourcePath",childNode.getPath());
+                data.addProperty("resourcePath", childNode.getPath());
                 array.add(data);
             }
             response.setContentType("application/json");
@@ -81,12 +79,12 @@ public class FormServlet extends SlingAllMethodsServlet {
         }
     }
 
-    private void createFormNode(SlingHttpServletRequest req, SlingHttpServletResponse resp){
+    private void createFormNode(SlingHttpServletRequest req, SlingHttpServletResponse resp) {
         try {
-            ResourceResolver resourceResolver= req.getResourceResolver();
+            ResourceResolver resourceResolver = req.getResourceResolver();
             String nodePath = req.getParameter("resourcePath");
             Resource resource1 = null;
-            if(nodePath != null && !nodePath.equals("")){
+            if (nodePath != null && !nodePath.equals("")) {
                 resource1 = resourceResolver.getResource(nodePath);
             }
             String first_name = req.getParameter("fname");
@@ -97,54 +95,72 @@ public class FormServlet extends SlingAllMethodsServlet {
             detail.put(LAST_NAME, last_name);
             detail.put(AGE, age);
 
-            if(resource1==null) {
-                ResourceUtil.getOrCreateResource(req.getResource().getResourceResolver(), req.getResource().getPath().concat("/userdetail") + String.valueOf(Math.random()).substring(2, 8), detail, null, true);
-            }
-            else {
+            if (resource1 == null) {
+                if(countNode(req.getResource()) < formDataDisplayService.getDisplayCount()) {
+                    ResourceUtil.getOrCreateResource(req.getResource().getResourceResolver(), req.getResource().getPath().concat("/").concat(first_name) + String.valueOf(Math.random()).substring(2, 8), detail, null, true);
+                }else{
+                    JsonObject data = new JsonObject();
+                    data.addProperty("status", "error");
+                    data.addProperty("message", "Maximum nodes are already created");
+                    resp.setContentType("application/json");
+                    resp.getWriter().print(data.toString());
+                    resp.getWriter().close();
+                }
+            } else {
                 ModifiableValueMap modifiableValueMap = resource1.adaptTo(ModifiableValueMap.class);
                 modifiableValueMap.put("FirstName", req.getParameter("fname"));
                 modifiableValueMap.put(LAST_NAME, last_name);
                 modifiableValueMap.put(AGE, age);
                 resourceResolver.commit();
+                JsonObject data = new JsonObject();
+                data.addProperty("status", "edit");
+                data.addProperty("editmessage", "the node has been edited");
+                resp.setContentType("application/json");
+                resp.getWriter().print(data.toString());
             }
         } catch (Exception e) {
             LOG.error("Exception caught in createFormNode Servlet", e);
         }
     }
-    private  void deleteNode (SlingHttpServletRequest request,SlingHttpServletResponse response)
-    {
-        try
-        {
+
+    private void deleteNode(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+        try {
             String nodePath = request.getParameter("resourcePath"); //rResource will accept only the string
-            ResourceResolver resourceResolver= request.getResourceResolver();
-            Resource node=resourceResolver.getResource(nodePath);
+            ResourceResolver resourceResolver = request.getResourceResolver();
+            Resource node = resourceResolver.getResource(nodePath);
             resourceResolver.delete(node);
             resourceResolver.commit();
 
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             LOG.error("Exception caught in deleteNode Servlet", e);
         }
     }
-    private void editNode (SlingHttpServletRequest request,SlingHttpServletResponse response)
-    {
-        try
-        {
-            ResourceResolver resourceResolver= request.getResourceResolver();
+
+    private void editNode(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+        try {
+            ResourceResolver resourceResolver = request.getResourceResolver();
             response.setContentType("application/json");
             String nodePath = request.getParameter("resourcePath");
-            Resource resource =resourceResolver.getResource(nodePath);
-            JsonObject dataFetch= new JsonObject();
-            dataFetch.addProperty(FIRST_NAME,  resource.getValueMap().get(FIRST_NAME,String.class));
-            dataFetch.addProperty(LAST_NAME,  resource.getValueMap().get(LAST_NAME,String.class));
-            dataFetch.addProperty(AGE,  resource.getValueMap().get(AGE,String.class));
-
+            Resource resource = resourceResolver.getResource(nodePath);
+            JsonObject dataFetch = new JsonObject();
+            dataFetch.addProperty(FIRST_NAME, resource.getValueMap().get(FIRST_NAME, String.class));
+            dataFetch.addProperty(LAST_NAME, resource.getValueMap().get(LAST_NAME, String.class));
+            dataFetch.addProperty(AGE, resource.getValueMap().get(AGE, String.class));
             response.getWriter().print(dataFetch);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             LOG.error("Exception caught in editNode Servlet", e);
         }
 
     }
-}
 
+    private int countNode(Resource resource) {
+        Iterator<Resource> parentNode = resource.listChildren();
+        int count = 0;
+        while (parentNode.hasNext())
+        {
+            Resource childNode = parentNode.next();
+            count++;
+        }
+        return count;
+    }
+}

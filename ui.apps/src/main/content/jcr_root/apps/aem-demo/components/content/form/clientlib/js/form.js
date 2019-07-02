@@ -48,8 +48,19 @@ $(document).ready(function() {
                     age: Age,
                     resourcePath : pathNode
                 },
-                success: function(resource) {  //parameter is responce to client-side.
-                    alert("the values has been sucessfully added");
+                success: function(response) {  //parameter is responce to client-side.
+                   if(resource.status === "error")
+                   {
+                      alert(response.message);
+                   }
+                   else if (response.status === "edit")
+                   {
+                      alert(response.editmessage)
+                   }
+                   else
+                   {
+                      alert("the values has been sucessfully added");
+                   }
                     $('#firstname').val("");
                     $('#lastname').val("");
                     $('#age').val("");
@@ -63,7 +74,6 @@ $(document).ready(function() {
             });
         }
     });
-
     getFormData();
 });
 
@@ -71,15 +81,16 @@ function getFormData() {
     $.ajax({
         url: resourceUrl2 + '.json',
         type: 'GET',
-        success: function(resource) {
+        success: function(response) {
             $('#table tbody').empty();
             $.each(resource, function(a) {
-                $('#table tbody').append("<tr><td>" + resource[a]['First-Name'] + "</td><td>" + resource[a]['Last-Name'] +
-                    "</td><td>" + resource[a].Age + "</td><td>" + "</td><td><button class='edit' data-node-path='"+resource[a].resourcePath+"'>Edit</button></td><td><button class='delete' data-node-path='"+resource[a].resourcePath+"'>Delete</button></td></tr>");
+                $('#table tbody').append("<tr><td>" + response[a]['First-Name'] + "</td><td>" + response[a]['Last-Name'] +
+                    "</td><td>" + response[a].Age + "</td><td>" + "</td><td><button class='edit' data-node-path='"+response[a].resourcePath+"'>Edit</button></td><td><button class='delete' data-node-path='"+response[a].resourcePath+"'>Delete</button></td></tr>");
              });
         },
         error: function() {
             console.log("error");
+
         }
     });
 }
@@ -93,7 +104,7 @@ $(document).on('click', '.delete', function(event) {
         {
          resourcePath: path
         },
-        success: function(resource) {
+        success: function(response) {
            alert("Your Data has been deleted");
             getFormData();
         },
@@ -113,12 +124,12 @@ $(document).on('click', '.edit', function(event) {
         {
          resourcePath : path
         },
-        success: function(resource) {
-            var fname=$("#firstname").val(resource.FirstName);
-            var lname=$("#lastname").val(resource.LastName);
-            var age=$("#age").val(resource.Age);
+        success: function(response) {
+            var fname=$("#firstname").val(response.FirstName);
+            var lname=$("#lastname").val(response.LastName);
+            var age=$("#age").val(response.Age);
             pathNode = path;
-            console.log(resource);
+            console.log(response);
 
         },
         error: function() {
@@ -130,6 +141,10 @@ $(document).on('click', '.edit', function(event) {
 
 $("#show").click(function() {
      $("#table").toggle(1500);
+  });
+
+$("#hide").click(function() {
+     $("#slingTable").toggle(1500);
   });
 
 
