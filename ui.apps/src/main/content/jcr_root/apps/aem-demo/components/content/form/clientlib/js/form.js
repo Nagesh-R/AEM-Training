@@ -33,23 +33,27 @@ $(document).ready(function() {
             age: {
                 required: "please enter your Age"
             }
+
         },
         submitHandler: function(form) {
             console.log(form);
             var Fname = $('#firstname').val();//took value from client side
             var Lname = $('#lastname').val();
             var Age = $('#age').val();
+            var Gender=$('#gender').val();
+            console.log(Gender);
             $.ajax({
-                url: resourceUrl2 + '.form.json',
+                url: resourceUrl2 + '.createFormNode.json',
                 type: 'POST',
                 data: {
-                    fname: Fname,
+                    fname: Fname,  // passing value to servlet
                     lname: Lname,
                     age: Age,
+                    gender : Gender,
                     resourcePath : pathNode
                 },
                 success: function(response) {  //parameter is responce to client-side.
-                   if(resource.status === "error")
+                   if(response.status === "error")
                    {
                       alert(response.message);
                    }
@@ -59,11 +63,9 @@ $(document).ready(function() {
                    }
                    else
                    {
+
                       alert("the values has been sucessfully added");
                    }
-                    $('#firstname').val("");
-                    $('#lastname').val("");
-                    $('#age').val("");
                     getFormData();
                     pathNode =" ";
                 },
@@ -79,13 +81,13 @@ $(document).ready(function() {
 
 function getFormData() {
     $.ajax({
-        url: resourceUrl2 + '.json',
+        url: resourceUrl2 + '.createFormNode.json',
         type: 'GET',
         success: function(response) {
             $('#table tbody').empty();
-            $.each(resource, function(a) {
-                $('#table tbody').append("<tr><td>" + response[a]['First-Name'] + "</td><td>" + response[a]['Last-Name'] +
-                    "</td><td>" + response[a].Age + "</td><td>" + "</td><td><button class='edit' data-node-path='"+response[a].resourcePath+"'>Edit</button></td><td><button class='delete' data-node-path='"+response[a].resourcePath+"'>Delete</button></td></tr>");
+            $.each(response, function(a) {
+                $('#table tbody').append("<tr><td>" + response[a].FirstName + "</td><td>" + response[a].LastName +
+                    "</td><td>" + response[a].Age + "</td><td>" + response[a].Gender + "</td><td>" + "</td><td><button class='edit' data-node-path='"+response[a].resourcePath+"'>Edit</button></td><td><button class='delete' data-node-path='"+response[a].resourcePath+"'>Delete</button></td></tr>");
              });
         },
         error: function() {
@@ -128,6 +130,7 @@ $(document).on('click', '.edit', function(event) {
             var fname=$("#firstname").val(response.FirstName);
             var lname=$("#lastname").val(response.LastName);
             var age=$("#age").val(response.Age);
+            var age=$("#gender").val(response.Gender);
             pathNode = path;
             console.log(response);
 
@@ -146,6 +149,4 @@ $("#show").click(function() {
 $("#hide").click(function() {
      $("#slingTable").toggle(1500);
   });
-
-
 

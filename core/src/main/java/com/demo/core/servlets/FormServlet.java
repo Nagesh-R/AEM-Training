@@ -1,6 +1,6 @@
 package com.demo.core.servlets;
 
-import com.demo.core.services.FormDataDisplayService;
+import com.demo.core.services.FormLimitDataDisplay;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -25,7 +25,7 @@ import java.util.*;
                 "sling.servlet.methods=" + HttpConstants.METHOD_POST,
                 "sling.servlet.methods=" + HttpConstants.METHOD_GET,
                 "sling.servlet.resourceTypes=" + "aem-demo/components/content/form",
-                "sling.servlet.selectors=" + "form",
+                "sling.servlet.selectors=" + "createFormNode",
                 "sling.servlet.selectors=" + "deleteFormNode",
                 "sling.servlet.selectors=" + "editNode",
                 "sling.servlet.extensions=" + "json"
@@ -34,18 +34,18 @@ import java.util.*;
 public class FormServlet extends SlingAllMethodsServlet {
     private Logger LOG = LoggerFactory.getLogger(FormServlet.class);
 
-    public static final String FIRST_NAME = "FirstName";
+   /* public static final String FIRST_NAME = "FirstName";
     public static final String LAST_NAME = "LastName";
-    public static final String AGE = "Age";
+    public static final String AGE = "Age";*/
 
     @Reference
-    private FormDataDisplayService formDataDisplayService;
+    private FormLimitDataDisplay formDataDisplayService;
 
     @Override
     protected void doPost(final SlingHttpServletRequest req,
                           final SlingHttpServletResponse resp) throws ServletException, IOException {
         String selector = req.getRequestPathInfo().getSelectorString();
-        if (selector.equals("form")) {
+        if (selector.equals("createFormNode")) {
             createFormNode(req, resp);
         } else if (selector.equals("deleteFormNode")) {
             deleteNode(req, resp);
@@ -59,17 +59,19 @@ public class FormServlet extends SlingAllMethodsServlet {
         try {
             Resource resource = request.getResource();
             JsonArray array = new JsonArray();
-
             Iterator<Resource> parentNode = resource.listChildren();
-            while (parentNode.hasNext()) {
+            int limitCount=0;
+            while (parentNode.hasNext() && limitCount < formDataDisplayService.DisplayLimitCount()) {
                 Resource childNode = parentNode.next();
                 ValueMap childValueMap = childNode.getValueMap();
                 JsonObject data = new JsonObject();
-                data.addProperty("First-Name", childValueMap.get(FIRST_NAME, String.class));
-                data.addProperty("Last-Name", childValueMap.get(LAST_NAME, String.class));
-                data.addProperty(AGE, childValueMap.get(AGE, String.class));
+                data.addProperty("FirstName", childValueMap.get("FirstName", String.class));
+                data.addProperty("LastName", childValueMap.get("LastName", String.class));
+                data.addProperty("Age", childValueMap.get("Age", String.class));
+                data.addProperty("Gender", childValueMap.get("Gender",String.class));
                 data.addProperty("resourcePath", childNode.getPath());
                 array.add(data);
+                limitCount++;
             }
             response.setContentType("application/json");
             response.getWriter().print(array.toString());
@@ -90,15 +92,17 @@ public class FormServlet extends SlingAllMethodsServlet {
             String first_name = req.getParameter("fname");
             String last_name = req.getParameter("lname");
             String age = req.getParameter("age");
+            String gender = req.getParameter("gender");
             Map detail = new HashMap();
             detail.put("FirstName", first_name);
-            detail.put(LAST_NAME, last_name);
-            detail.put(AGE, age);
+            detail.put("LastName", last_name);
+            detail.put("Age", age);
+            detail.put("Gender",gender);
 
             if (resource1 == null) {
-                if(countNode(req.getResource()) < formDataDisplayService.getDisplayCount()) {
+                if (countNode(req.getResource()) < formDataDisplayService.DisplayCount()) {
                     ResourceUtil.getOrCreateResource(req.getResource().getResourceResolver(), req.getResource().getPath().concat("/").concat(first_name) + String.valueOf(Math.random()).substring(2, 8), detail, null, true);
-                }else{
+                } else {
                     JsonObject data = new JsonObject();
                     data.addProperty("status", "error");
                     data.addProperty("message", "Maximum nodes are already created");
@@ -109,8 +113,9 @@ public class FormServlet extends SlingAllMethodsServlet {
             } else {
                 ModifiableValueMap modifiableValueMap = resource1.adaptTo(ModifiableValueMap.class);
                 modifiableValueMap.put("FirstName", req.getParameter("fname"));
-                modifiableValueMap.put(LAST_NAME, last_name);
-                modifiableValueMap.put(AGE, age);
+                modifiableValueMap.put("LastName", last_name);
+                modifiableValueMap.put("Age", age);
+                modifiableValueMap.put("Gender", gender);
                 resourceResolver.commit();
                 JsonObject data = new JsonObject();
                 data.addProperty("status", "edit");
@@ -143,9 +148,10 @@ public class FormServlet extends SlingAllMethodsServlet {
             String nodePath = request.getParameter("resourcePath");
             Resource resource = resourceResolver.getResource(nodePath);
             JsonObject dataFetch = new JsonObject();
-            dataFetch.addProperty(FIRST_NAME, resource.getValueMap().get(FIRST_NAME, String.class));
-            dataFetch.addProperty(LAST_NAME, resource.getValueMap().get(LAST_NAME, String.class));
-            dataFetch.addProperty(AGE, resource.getValueMap().get(AGE, String.class));
+            dataFetch.addProperty("FirstName", resource.getValueMap().get("FirstName", String.class));
+            dataFetch.addProperty("LastName", resource.getValueMap().get("LastName", String.class));
+            dataFetch.addProperty("Age", resource.getValueMap().get("Age", String.class));
+            dataFetch.addProperty("Gender", resource.getValueMap().get("Gender", String.class));
             response.getWriter().print(dataFetch);
         } catch (Exception e) {
             LOG.error("Exception caught in editNode Servlet", e);
@@ -156,8 +162,7 @@ public class FormServlet extends SlingAllMethodsServlet {
     private int countNode(Resource resource) {
         Iterator<Resource> parentNode = resource.listChildren();
         int count = 0;
-        while (parentNode.hasNext())
-        {
+        while (parentNode.hasNext()) {
             Resource childNode = parentNode.next();
             count++;
         }

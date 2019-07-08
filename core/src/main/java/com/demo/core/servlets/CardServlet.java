@@ -27,7 +27,6 @@ import java.io.IOException;
         })
 public class CardServlet extends SlingSafeMethodsServlet {
     private Logger LOG = LoggerFactory.getLogger(FormServlet.class);
-    private static final long serialVersionUID = 1L;
 
     @Override
     protected void doGet(final SlingHttpServletRequest req,

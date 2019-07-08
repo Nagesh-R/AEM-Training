@@ -1,0 +1,17 @@
+<sly data-sly-test="${wcmmode.edit}">configure article component here</sly>
+<div class="container article-container" data-path="${resource.path}" data-button-text="${properties.buttonName}"
+     data-sly-use.article="com.demo.core.content.ArticleModel">
+    <div class="row article-row"  data-sly-list.userData="${article.userDataArray}" >
+        <div class="col-lg-4">
+            <div class="card-body">
+                <img class="card-img-top img" src="${userData.articleImage}"/>
+                <h4 class="card-title title">${userData.title}</h4>
+                <p class="card-text desc">${userData.description}</p>
+                <a class="btn btn-primary cta-btn cta" href="${userData.articlePath}">${properties.buttonName}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<sly data-sly-test="${article.result}">
+    <a class="btn btn-primary load-more" >${properties.loadmore}</a>
+</sly>

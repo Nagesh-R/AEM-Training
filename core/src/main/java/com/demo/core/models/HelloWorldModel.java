@@ -33,16 +33,13 @@ public class HelloWorldModel {
 
     @Inject @Named(JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY) @Default(values="No resourceType")
     protected String resourceType;
-
     private String message;
-
     @PostConstruct
     protected void init() {
         message = "\tHello World!\n";
         message += "\tThis is instance: " + settings.getSlingId() + "\n";
         message += "\tResource type is: " + resourceType + "\n";
     }
-
     public String getMessage() {
         return message;
     }

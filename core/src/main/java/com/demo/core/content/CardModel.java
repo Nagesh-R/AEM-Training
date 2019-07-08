@@ -7,14 +7,11 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 @Model(adaptables = Resource.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class CardModel
-{
-
+public class CardModel {
     private static final Logger LOG = LoggerFactory.getLogger(CardModel.class);
 
     @Inject
@@ -40,7 +37,6 @@ public class CardModel
 
     @Self
     private Resource resource;
-
 
     public String getButton() {
         return button;
@@ -73,17 +69,15 @@ public class CardModel
     @PostConstruct
     private void init()
     {
-
         if (button != null) {
-            if(button.startsWith("/content"))
+            if (button.startsWith("/content"))
             {
-                if(!button.endsWith(".html"))
+                if (!button.endsWith(".html"))
                 {
                     button = button + ".html";
                 }
             }
-        } else {
-
+        } else{
             LOG.info("button url not configured");
         }
 
