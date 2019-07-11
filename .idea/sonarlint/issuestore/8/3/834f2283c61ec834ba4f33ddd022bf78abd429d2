@@ -1,0 +1,12 @@
+
+hsquid:UselessImportCheck	"=Remove this unused import 'com.day.cq.wcm.foundation.Search'.(™âä¸8²öåã»-
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ü™”Åùÿÿÿÿ8€¢Óä»-
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(…µ–úÿÿÿÿ8ı±Ùá»-
+gsquid:S2259F"DA "NullPointerException" could be thrown; "jcrMap" is nullable here.(©†Âúøÿÿÿÿ8Âà«ä»-
+Esquid:S1068"'Remove this unused "LOG" private field.(¡¿†Æ8ŞŒÒÜ»-
+nsquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(¤†Ôˆÿÿÿÿÿ8—œ»ƒ¼-
+wsquid:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8÷¦ÙÜ»-
+nsquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(®†®ïşÿÿÿÿ8£¼åä»-
+Nsquid:S1068 "+Remove this unused "session" private field.(ÔÂòáÿÿÿÿÿ8†öƒŞ»-
+_squid:S2259D"AA "NullPointerException" could be thrown; "jcr" is nullable here.(èçşØ8ı…§ä»-
+“squid:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¢×úöúÿÿÿÿ8íîÅŞ»-

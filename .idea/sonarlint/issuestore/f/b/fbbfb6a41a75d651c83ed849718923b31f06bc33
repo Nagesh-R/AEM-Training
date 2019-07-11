@@ -1,7 +1,11 @@
 
-Yjavascript:S1854u"6Remove this useless assignment to local variable "age"(ÀÏæË8¯Ñ¦÷¸-
-cjavascript:S1854t";Remove this useless assignment to local variable "lastName"(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
-jjavascript:UnusedVariablet"9Remove the declaration of the unused 'lastName' variable.(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
-kjavascript:UnusedVariables":Remove the declaration of the unused 'firstName' variable.(ÛÚøÛûÿÿÿÿ8À’¬÷¸-
-djavascript:S1854s"<Remove this useless assignment to local variable "firstName"(ÛÚøÛûÿÿÿÿ8À’¬÷¸-
-`javascript:UnusedVariableu"4Remove the declaration of the unused 'age' variable.(ÀÏæË8¯Ñ¦÷¸-
+Hjavascript:S1442"" Remove this usage of alert(...).(‚„áûÿÿÿÿ8££è»-
+jjavascript:UnusedVariablel"9Remove the declaration of the unused 'lastName' variable.(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
+Hjavascript:S1442" Remove this usage of alert(...).(‚„áûÿÿÿÿ8Æƒúìº-
+cjavascript:S1854l";Remove this useless assignment to local variable "lastName"(Ü¼¾Øıÿÿÿÿ8óÙ¬÷¸-
+`javascript:UnusedVariablem"4Remove the declaration of the unused 'age' variable.(ÀÏæË8¯Ñ¦÷¸-
+Hjavascript:S1442" Remove this usage of alert(...).(‚„áûÿÿÿÿ8öšË»-
+Bjavascript:S1442T" Remove this usage of alert(...).(ÊÙÁu8§äâìº-
+djavascript:S1854k"<Remove this useless assignment to local variable "firstName"(ÛÚøÛûÿÿÿÿ8À’¬÷¸-
+Yjavascript:S1854m"6Remove this useless assignment to local variable "age"(ÀÏæË8¯Ñ¦÷¸-
+kjavascript:UnusedVariablek":Remove the declaration of the unused 'firstName' variable.(ÛÚøÛûÿÿÿÿ8À’¬÷¸-

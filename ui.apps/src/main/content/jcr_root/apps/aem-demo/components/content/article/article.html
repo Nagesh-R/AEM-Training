@@ -1,0 +1,21 @@
+<div class="container article-component" data-path="${resource.path}"
+     data-sly-use.result="com.demo.core.content.Article"  data-offset=3>
+    <div class="row article-row" data-sly-list.values="${result.arrayList}">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top" src="${values.image}"/>
+                    <h4 class="card-title">${values.title}</h4>
+                    <h4 class="card-description">${values.description}</h4>
+                    <a href="${values.path}.html" class="btn btn-primary buttonValue"
+                       btnPath="${properties.buttonname}" id="button" >${properties.buttonname}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+          <sly data-sly-test="${result.resultComparision}">
+       <button class="showmoredata btn-primary" id="loadbutton"
+                      btn-path="${properties.loadmore}">${properties.loadmore}</button>
+         </sly>
+
+ </div>

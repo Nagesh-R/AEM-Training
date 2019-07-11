@@ -49,6 +49,31 @@
                         text="Enable"
                         uncheckedValue="_self"
                         value="true"/>
+                    <options
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            composite="{Boolean}true"
+                            fieldLabel="Add label here">
+                        <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                name="./nameHere">
+                            <items jcr:primaryType="nt:unstructured">
+                                <image
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                        fieldLabel="Insert-Image"
+                                        name="./image"/>
+                                <text
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Card-Title"
+                                        name="./text"/>
+                                <!-- Any fields you want -->
+                            </items>
+                        </field>
+                    </options>
+
                 </items>
             </info>
         </items>
