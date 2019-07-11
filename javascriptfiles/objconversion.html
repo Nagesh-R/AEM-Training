@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h4>Object conversion to Primitive</h4>
+</head>
+<body>
+<script>
+	var obj1 ={};
+	console.log(+obj1);
+	console.log(`${obj1}`);
+	console.log(obj1+ '');
+	var obj2 ={
+		[Symbol.toPrimitive](hint){//used for object conversion to primitive 
+			if(hint == 'number'){
+				return 10;
+			}
+			if(hint == 'string'){
+				return 'hello';
+			}
+			return true;
+
+		}
+	};
+	console.log(+obj2);
+	console.log(`${obj2}`);
+	console.log(obj2+ '');
+</script>
+</body>
+</html>

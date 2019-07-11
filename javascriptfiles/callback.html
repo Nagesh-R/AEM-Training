@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Call Back</h1>
+</head>
+<body>
+<script>
+function greeting(name){
+	alert('Hello' +name);
+}
+function processUserInput(callback){
+	var name = prompt("please enter your name");
+	callback(name);
+}
+processUserInput(greeting);
+</script>
+</body>
+</html>

@@ -1,7 +1,6 @@
 <head>
     <h4>Form Application</h4>
 </head>
-
 <div class="form form-component"  data-sly-use.result="com.demo.core.content.FetchingDataFromForm" data-path="${resource.path}">
 <form id="form" action="javascript:void(0);" onsubmit="javascript:void(0);">
     First name:<br>
@@ -16,66 +15,55 @@
     Address:<br>
     <textarea id="address" name="address"></textarea>
     <br><br>
+    Gender:<br>
+    <select id ="gender" data-sly-list.values="${result.displayGender}">
+          <option value="${values}">${values}</option>
+    </select>
     <input type="submit" value="Submit" id="submit">
-
-
 </form>
     <div >
         <table border ='1'>
             <thead>
-            <th>Name</th>
-            <th>DOB</th>
-            <th>Age</th>
-            <th>Address</th>
-            <th>Edit</th>
-            <th>Delete</th>
-
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </thead>
 
             <tbody>
-            <sly data-sly-list.data="${result.arrayList}">
+            <sly data-sly-list.data="${result.childNodePropertiesList}">
                 <tr>
                     <td>${data.firstname}</td>
                     <td>${data.dob}</td>
                     <td>${data.age}</td>
                     <td>${data.address}</td>
-                   <!--/* <td><button class='edit' data-node-path='"+${data.path}+"'>Edit</button></td>
-                    <td><button class='delete' data-node-path='"+${data.path}+"'>Delete</button></td>*/-->
+                    <td>${data.gender}</td>
+                    <td><button class="edit" data-node-path="${data.path}">Edit</button></td>
+                    <td><button class="delete" data-node-path="${data.path}">delete</button></td>
+
 
                 </tr>
             </sly>
 
-        </tbody>
+            </tbody>
         </table>
 
     </div>
-
-
-
     <div id="formdata">
         <table border ='1'>
             <thead>
-            <th>Name</th>
-            <th>DOB</th>
-            <th>Age</th>
-            <th>Address</th>
-            <th>Edit</th>
-            <th>Delete</th>
-
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </thead>
-
             <tbody>
-            <sly data-sly-list.data="${result.arrayList}">
-                <tr>
-                    <td>${data.firstname}</td>
-                    <td>${data.dob}</td>
-                    <td>${data.age}</td>
-                    <td>${data.address}</td>
-                    <td><button class="edit" data-node-path="${data.path}">Edit</button></td>
-                    <td><button class="delete" data-node-path="${data.path}">Edit</button></td>
-
-                </tr>
-            </sly>
 
             </tbody>
         </table>

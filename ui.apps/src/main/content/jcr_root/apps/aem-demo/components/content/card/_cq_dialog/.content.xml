@@ -13,42 +13,67 @@
                     <image
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
-                        fieldLabel="Insert-Image"
+                        fieldLabel="image "
                         name="./image"/>
-                    <text
+                    <title
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Card-Title"
-                        name="./text"/>
-                    <desc
+                        fieldLabel="title"
+                        name="./title"/>
+                    <description
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                        fieldLabel="Enter-Descrption"
-                        name="./desc"/>
-                    <target
+                        fieldLabel="description"
+                        name="./description"/>
+                    <cta
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        fieldDescription="when cliked, open in new tab"
-                        name="./target"
-                        text="Open link in new tab"
+                        fieldLabel="link"
+                        name="./cta"
+                        text="check for link"
+                        uncheckedValue="_self"
                         value="_blank"/>
-                    <button
+                    <link
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
-                        fieldLable="Link"
-                        name="./button"/>
+                        fieldLabel="link to redirect"
+                        name="./link"/>
                     <bname
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Button-Name"
+                        fieldLabel="bname"
                         name="./bname"/>
-                    <check
+                    <checkbox
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        name="./check"
-                        text="Enable"
-                        uncheckedValue="_self"
+                        fieldDescription="Enableing CTA Button"
+                        name="./EnableCTA"
+                        text="Enableing CTA"
                         value="true"/>
+                    <options
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            composite="{Boolean}true"
+                            fieldLabel="Add label here">
+
+                        <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                name="./multiFieldText">
+                            <items jcr:primaryType="nt:unstructured">
+                                <image
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                        fieldLabel="image "
+                                        name="./image"/>
+                                <title
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="title"
+                                        name="./title"/>
+                            </items>
+                        </field>
+                    </options>
                 </items>
             </info>
         </items>

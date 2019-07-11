@@ -41,4 +41,9 @@
 	var resultevery  = arr.every(result=>result>4);//every element should pass the condition
 	console.log("using every() ",resultevery);
 
+	var sortedOrder = arr.sort();
+	console.log("sorted elements of array"sortedOrder);
+
+	
+
 

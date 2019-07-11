@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h4>Math in-Built operations</h4>
+</head>
+<body>
+<script>
+//Math.floor used for rounding up a number to smaller one
+let number = 3.1;
+console.log("using math.floor : "+Math.floor(number));
+let number1 = -1.5;
+console.log("math floor for negative"+Math.floor(number1));
+
+//Math.ceil rounds to nearest large number
+console.log("Math ceil for number: "+Math.ceil(number));
+console.log("Math ceil for negative number: "+Math.ceil(number1));
+
+//Math.round rounds the nearest integer
+console.log("Math.round: "+Math.round(number));
+console.log("Math.round for negative number: "+Math.round(number1));
+
+//Math.trunc ignores after decimal
+console.log("Math truc "+Math.trunc(number));
+console.log("Math trunc for negative number: "+Math.trunc(number1));
+
+//toFixed() result in string and it should have two values after decimal point
+let num = 123.456789;
+console.log("using toFixed(): "+num.toFixed(2));
+//Object.is is used to check between two things same as (===)
+let num2 = "hello";
+let num3 = "hello";
+console.log("using object.is: "+Object.is(num2,num3));
+
+console.log("returns a random number: "+Math.random());
+console.log("returns min: "+Math.min(6,4));
+console.log("returns max: "+Math.max(8,2));
+console.log("returns pow: "+Math.pow(4,2));
+</script>
+</body>
+</html>

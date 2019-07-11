@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h4>Strings</h4>
+</head>
+<body>
+<script>
+var str = 'As sly as a fox, as strong as an ox';
+let target = 'as';
+let position = 0;
+while(true){
+	let foundPosition = str.indexOf(target,position);
+	if(foundPosition == -1)break;
+	alert(`found at ${foundPosition}`);
+	position = foundPosition + 1;
+}
+//methods to find substring
+let str1 = "stringify";
+alert(str.slice(2));
+alert(str.substr(2,5));
+alert(str.substring(2,6));
+</script>
+</body>
+</html>
